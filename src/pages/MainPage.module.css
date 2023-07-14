@@ -1,0 +1,16 @@
+
+@keyframes opacity {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.mainPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: opacity 0.5s;
+
+}
